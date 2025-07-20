@@ -9,35 +9,47 @@
 
 ## 📸 Project Screenshots
 
-> All images are stored in the projectEMSImg/ folder:
+> All images are stored in the `projectEMSImg/` folder:
 
 ### 1. 🏠 Home Screen  
-![Home Screen](https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/home.png)
+<p align="center">
+  <img src="https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/home.png" width="500"/>
+</p>
 
 ---
 
 ### 2. ➕ Onboard Employee  
-![Onboard Employee](https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/ADDEMP.png)
+<p align="center">
+  <img src="https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/ADDEMP.png" width="500"/>
+</p>
 
 ---
 
 ### 3. 📋 View All Employees  
-![View All](https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/viewAll.png)
+<p align="center">
+  <img src="https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/viewAll.png" width="500"/>
+</p>
 
 ---
 
 ### 4. 🔍 Search Employee  
-![Search](https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/searchEmployee.png)
+<p align="center">
+  <img src="https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/searchEmployee.png" width="500"/>
+</p>
 
 ---
 
 ### 5. ✏ Update Employee  
-![Update Step 1](https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/UPDATEEMP.png)
+<p align="center">
+  <img src="https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/UPDATEEMP.png" width="500"/>
+</p>
 
 ---
 
 ### 6. ❌ De-board Employee  
-![DeBoard](https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/DeleteEMP.png)
+<p align="center">
+  <img src="https://github.com/Bhumikahm/Employee_Management_System/blob/a9ae04119fe947d741870eddd8d80cb467e962c4/DeleteEMP.png" width="500"/>
+</p>
 
 ---
 
@@ -57,21 +69,22 @@
 
 | Technology | Role |
 |------------|------|
-| Java | Core Application Logic |
-| Java Swing | User Interface |
-| MySQL | Data Persistence |
-| JDBC | Database Connectivity |
+| Java       | Core Application Logic |
+| Java Swing | User Interface         |
+| MySQL      | Data Persistence       |
+| JDBC       | Database Connectivity  |
 
 ---
 
 ## 📦 How to Run Locally
 
-bash
+```bash
 # 1. Clone the repository
 git clone https://github.com/Bhumikahm/Employee_Management_System.git
 cd EmployeeManagementSystem
 
 # 2. Open in your Java IDE (IntelliJ / Eclipse)
+
 # 3. Ensure MySQL is running and create the database:
 
 CREATE DATABASE emsdb;
@@ -83,13 +96,13 @@ String user = "root";
 String password = "yourpassword";
 
 # 5. Run Home.java to launch the system
-
+```
 
 ---
 
 ## 📁 Project Structure
 
-
+```
 EmployeeManagementSystem/
 ├── src/
 │   ├── Home.java
@@ -99,15 +112,18 @@ EmployeeManagementSystem/
 │   ├── UpdateEmployee.java
 │   ├── DeBoardEmployee.java
 │   └── DBConnection.java
-├── db.sql (optional)
+├── lib/
+│   └── mysql-connector-java-8.0.xx.jar
+├── dist/
+│   └── EmployeeManagementSystem.jar
 └── README.md
-
+```
 
 ---
 
-## 🙋‍♂ Author
+## 🙋‍♀ Author
 
-*Bhumika HM*  
+**Bhumika H M**  
 🔗 [LinkedIn](http://www.linkedin.com/in/bhumika-h-m)  
 🌐 [Portfolio](https://bhumika-protfolio.vercel.app/)  
 📧 Email: bhumikahm2003@gmail.com
